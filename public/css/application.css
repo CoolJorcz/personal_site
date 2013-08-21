@@ -7,3 +7,7 @@
 th {
 	text-align: left;
 }
+
+ul#errors {
+  color: red;
+}

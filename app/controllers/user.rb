@@ -14,7 +14,7 @@ post '/sign-in' do
 end
 
 post '/register' do
-	user = User.create(params[:user])
+	@user = User.create(params[:user])
 	session[:user_id] = @user.id
 	redirect('/')
 end
