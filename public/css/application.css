@@ -1,13 +1,13 @@
-.container {
-	margin: 20px auto;
-	width: 600px;
-	padding: 0px 20px 20px 20px;
-	border: 1px dotted black;
-}
-th {
-	text-align: left;
+
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - csapplication.scss"; }
+
+h1 {
+	text-align: center;
 }
 
-ul#errors {
-  color: red;
+h2 {
+	text-align: center;
 }
