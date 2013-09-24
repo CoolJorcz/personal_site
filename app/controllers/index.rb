@@ -13,3 +13,7 @@ end
 get '/projects' do
 	erb :projects
 end
+
+get '/resume' do
+	erb :resume
+end
