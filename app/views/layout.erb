@@ -13,17 +13,25 @@
 	<title>Andrew Jorczak</title>
 </head>
 <body>
-	<header>
-  <ul>
-    <li><a href="/projects">Development Projects</a></li>
-    <li><a href="/aboutme">About Me</a></li>
-    <li><a href="https://github.com/CoolJorcz">GitHub</a></li>
-    <li><a href="http://www.linkedin.com/profile/view?id=49085002&trk=nav_responsive_tab_profile">LinkedIn</a></li>
-    <li><a href="https://twitter.com/andrewjorczak">Twitter</a> </li>
-    <li><a href="http://instagram.com/djjazzyaj">Instagram</a></li>
-    <li><a href="/theatre">Theatre Projects</a></li>
-  </ul>
-</header>
-<%= yield %>
+	<div class="title">
+		<h1 class="header1">Andrew Jorczak</h1>
+		<h2 class="header2">Web Developer, Theatre Artist</h2>
+		<br>
+		<nav class="navlist">
+		  <ul>
+		    <li><a href="/aboutme">About Me</a></li>
+		    <li> <a href="/resume">Resume</a></li>
+		    <li><a href="/projects">Development Projects</a></li>
+		    <li><a href="/theatre">Theatre Projects</a></li>
+		    <li><a href="https://github.com/CoolJorcz">GitHub</a></li>
+		    <li><a href="http://www.linkedin.com/profile/view?id=49085002&trk=nav_responsive_tab_profile">LinkedIn</a></li>
+		    <li><a href="https://twitter.com/andrewjorczak">Twitter</a> </li>
+		    <li><a href="http://instagram.com/djjazzyaj">Instagram</a></li>
+		  </ul>
+		</nav>
+</div>
+<div class="page">
+	<%= yield %>
+</div>
 </body>
 </html>
