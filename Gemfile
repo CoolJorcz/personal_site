@@ -15,6 +15,8 @@ gem 'activerecord'
 
 gem 'bcrypt-ruby', '~> 3.0.0'
 
+gem 'bourbon'
+
 gem 'rake'
 
 gem 'shotgun'

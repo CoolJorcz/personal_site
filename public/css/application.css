@@ -1,13 +1,44 @@
-.container {
-	margin: 20px auto;
-	width: 600px;
-	padding: 0px 20px 20px 20px;
-	border: 1px dotted black;
-}
-th {
-	text-align: left;
+
+/*body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - csapplication.scss"; }*/
+
+
+.title {
+	position: fixed;
+	display: block;
+	text-align: center;
+	padding-top: 5em;
 }
 
-ul#errors {
-  color: red;
+.header1 {
+	font-weight: bold;
+	font-size: 5em;
+	padding-bottom: 25px;
+}
+
+.header2 {
+	font-weight: bold;
+	font-size: 3em;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.title li{
+	text-align: left;
+	padding-left: 2em;
+	list-style: none;
+	width: 15em;
+}
+
+
+.page {
+	padding-top: 10em;
 }
