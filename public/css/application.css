@@ -5,22 +5,24 @@
   content: "Errno::ENOENT: No such file or directory - csapplication.scss"; }*/
 
 
-.title {
-	position: fixed;
+.span4 {
+	
 	display: block;
 	text-align: center;
 	padding-top: 5em;
+	width: 30%;
+	min-width: 600px;
 }
 
 .header1 {
 	font-weight: bold;
-	font-size: 5em;
+	font-size: 3em;
 	padding-bottom: 25px;
 }
 
 .header2 {
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 h1 {
@@ -31,7 +33,7 @@ h2 {
 	text-align: center;
 }
 
-.title li{
+.span4 li{
 	text-align: left;
 	padding-left: 2em;
 	list-style: none;
@@ -39,6 +41,7 @@ h2 {
 }
 
 
-.page {
-	padding-top: 10em;
+.span8 {
+	margin: 25px 0px 75px 200px;
+
 }
