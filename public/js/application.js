@@ -9,6 +9,7 @@ function homeCarousel() {
 }
 
 function contentView() {
+	$('#programming').show();
 
 	$(".link").on('mouseover', function(){
 		$(".container").hide();
