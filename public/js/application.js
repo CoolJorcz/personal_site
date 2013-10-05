@@ -11,8 +11,6 @@ function homeCarousel() {
 function contentView() {
 
 	$(".link").on('mouseover', function(){
-		$(".link").css('font-weight', 'normal');
-		$(this).css('font-weight', 'bold');
 		$(".container").hide();
 		var linkToShow = $(this).attr('href');
 		$(linkToShow).show();

@@ -22,9 +22,6 @@ body {
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.navlink {
-}
-
 .navlink:hover{
 	text-decoration: none
 }
@@ -34,6 +31,8 @@ body {
 }
 
 .link:hover {
+	color: black;
+	font-weight: bold;
 	text-decoration: none;
 }
 
