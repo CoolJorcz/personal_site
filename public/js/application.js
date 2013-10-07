@@ -12,6 +12,8 @@ function contentView() {
 	$('#programming').show();
 
 	$(".link").on('mouseover', function(){
+		$('.link').css('font-weight', 'normal');
+		$(this).css({'font-weight': 'bold', 'transition': '1s'})
 		$(".container").hide();
 		var linkToShow = $(this).attr('href');
 		$(linkToShow).show();

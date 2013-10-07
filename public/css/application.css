@@ -22,8 +22,17 @@ body {
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.navlink {
+	/*color: rgb(6,146,91);*/
+	color: #6b0707;
+	transition-property: font-weight;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
 .navlink:hover{
-	text-decoration: none
+	font-weight: 700;
+	color: #6b0707;
+	text-decoration: none;
 }
 .link {
 	text-decoration: none;
@@ -32,7 +41,6 @@ body {
 
 .link:hover {
 	color: black;
-	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -49,7 +57,8 @@ body {
 	text-decoration: none}
 
 .social .icon:hover {
-	color: red;
+	color: #6b0707;;
+	transition: 1s;
 }
 
 .social .icon.twitter:before, .social .icon.github:before, .social .icon.linkedin:before, .social .icon.instagram:before {
@@ -108,6 +117,8 @@ body {
 
 .header1 a:hover {
 	text-decoration: none;
+	transition: 0.45s;
+	color: #6b0707;
 }
 
 .header2 {
