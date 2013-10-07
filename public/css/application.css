@@ -169,3 +169,15 @@ h2 {
 	text-decoration: none;
 	color: rgb(18,71,47);
 }
+
+.development li {
+	list-style: none;
+}
+.development a {
+	color: black;
+}
+.development a:hover {
+	text-decoration: none;
+	color: #6b0707;
+	transition: 1s;
+}
