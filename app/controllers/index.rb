@@ -15,5 +15,5 @@ get '/projects' do
 end
 
 get '/resume' do
-	erb :resume
+	erb :resume2
 end

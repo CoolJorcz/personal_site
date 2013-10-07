@@ -57,7 +57,7 @@ body {
 	text-decoration: none}
 
 .social .icon:hover {
-	color: #6b0707;;
+	color: #6b0707;
 	transition: 1s;
 }
 
@@ -144,7 +144,6 @@ h2 {
 
 .span8 {
 	margin: 25px 0px 75px 200px;
-
 }
 
 .stretchtest{
@@ -157,4 +156,16 @@ h2 {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   display: inline-block;
+}
+
+.voiceover li {
+	list-style: none;
+}
+
+.voiceover a {
+	color: #6b0707;
+}
+.voiceover a:hover {
+	text-decoration: none;
+	color: rgb(18,71,47);
 }
