@@ -25,13 +25,11 @@ body {
 .navlink {
 	/*color: rgb(6,146,91);*/
 	color: #6b0707;
-	transition-property: font-weight;
-	transition-duration: 1s;
-	transition-timing-function: linear;
+	font-weight: 400;
 }
 .navlink:hover{
-	font-weight: 700;
-	color: #6b0707;
+	transition: 1s;
+	color: rgb(18,71,47);
 	text-decoration: none;
 }
 .link {
