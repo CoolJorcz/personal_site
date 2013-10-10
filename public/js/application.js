@@ -21,9 +21,32 @@ function contentView() {
 }
 
 
+function devCarousel() {
+
+	$("#rondellPages > div").rondell({
+		preset: "pages",
+		size: { width: 700 , height: 400 },
+		center: { left: 350, top: 200 },
+		itemProperties:
+			{
+		    delay: 100,
+		    cssClass: 'rondellItem',
+		    size: {
+		        width: 700,
+		        height: 400
+		    },
+		    sizeFocused: {
+		        width: 700,
+		        height: 400
+		    }
+			}
+	});
+}
+
 $(document).ready(function() {
 
 		$(".container").hide();
 	  homeCarousel();
 	  contentView();
+	  devCarousel();
 })
